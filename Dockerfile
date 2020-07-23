@@ -1,4 +1,4 @@
-FROM rhel7/rhel7
+FROM ubi7-minimal:7.8-ondeck
 
 RUN sudo yum install bind-utils -y
 
