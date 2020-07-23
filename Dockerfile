@@ -1,5 +1,5 @@
-FROM ubi7-minimal:7.8-ondeck
+FROM registry.redhat.io/ubi7/ubi
 
-RUN sudo yum install bind-utils -y
+RUN yum install bind-utils -y
 
 CMD ["/usr/bin/bash"]

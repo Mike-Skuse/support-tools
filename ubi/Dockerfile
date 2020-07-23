@@ -1,4 +1,4 @@
-FROM ubi7-minimal:7.8-ondeck
+FROM registry.redhat.io/ubi7/ubi
 
 LABEL com.redhat.component="support-tools-container"
 LABEL name="rhel7/support-tools"
